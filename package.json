@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.28.10",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*",
+    "particles.vue3": "^2.0.6",
+    "slidev-theme-light-icons": "^1.0.2"
+  },
+  "name": "blockchain-0",
+  "devDependencies": {
+    "@iconify-json/logos": "^1.1.5",
+    "@iconify-json/uim": "^1.1.1"
+  }
+}
