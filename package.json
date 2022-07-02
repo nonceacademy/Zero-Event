@@ -15,6 +15,6 @@
   "name": "blockchain-0",
   "devDependencies": {
     "@iconify-json/logos": "^1.1.5",
-    "@iconify-json/uim": "^1.1.1"
+    "@iconify-json/uim": "^1.1.2"
   }
 }
