@@ -1,6 +1,6 @@
 ---
 # try also 'default' to start simple
-theme: default
+# theme: ./slidev-nonce-theme
 
 favicon: '/assets/nonce-light.svg'
 
@@ -111,28 +111,59 @@ layout: intro
 
 # Welcome
 
+---
+layout: image-left
+image: ./assets/images/intros/0xanik.jpg
+---
+
+<h1 class="slide-title">Intro</h1>
+
+<h6 class="secondary-title">Presented by Ali Nik</h6>
+
+
+<ul class="content-overview">
+  <li>Thing 1
+    <ul clas>
+      <li>Subtopic 1</li>
+      <li>Subtopic 2</li>
+      <li>Subtopic 3</li>
+    </ul>
+  </li>
+  <li>Thing 2</li>
+  <li>Thing 3</li>
+</ul>
 
 
 ---
-layout: section
----
 
-# Intro
 
-This is where Ali's introduction goes.
-
----
 
 # Ali's content placeholder
 
 This is where the content goes
 
 ---
-layout: section
+layout: image-left
+image: ./assets/images/intros/Dr.farahani.jpg
 ---
-# A New Era
 
-This is where Dr. Farahani's introduction goes.
+<h1 class="slide-title">A New Era</h1>
+
+<h6 class="secondary-title">Presented by Dr. Hadi Farahani</h6>
+
+
+<ul class="content-overview">
+  <li>Thing 1
+    <ul clas>
+      <li>Subtopic 1</li>
+      <li>Subtopic 2</li>
+      <li>Subtopic 3</li>
+    </ul>
+  </li>
+  <li>Thing 2</li>
+  <li>Thing 3</li>
+</ul>
+
 
 ---
 
@@ -142,11 +173,27 @@ This is where the content goes
 
 
 ---
-layout: section
+layout: image-left
+image: ./assets/images/intros/Alimansour.jpg
 ---
-# Let's DeBank!
 
-This is where Ali Mansour's introduction goes.
+<h1 class="slide-title">Let's DeBank!</h1>
+
+<h6 class="secondary-title">Presented by Ali Mansour</h6>
+
+
+<ul class="content-overview">
+  <li>Thing 1
+    <ul clas>
+      <li>Subtopic 1</li>
+      <li>Subtopic 2</li>
+      <li>Subtopic 3</li>
+    </ul>
+  </li>
+  <li>Thing 2</li>
+  <li>Thing 3</li>
+</ul>
+
 
 ---
 
@@ -155,31 +202,29 @@ This is where Ali Mansour's introduction goes.
 This is where the content goes
 
 
----
-layout: section
----
-# DYOR!
-
-This is where Dr. Rouhani's introduction goes.
 
 ---
-
-# Dr. Rouhani's content placeholder
-
-This is where the content goes
-
----
-layout: cover
+layout: image-left
+image: ./assets/images/intros/Dr.rouhani.jpg
 ---
 
-Coffee time!
+<h1 class="slide-title">DYOR!</h1>
 
----
-layout: section
----
-# DYOR!
+<h6 class="secondary-title">Presented by Dr. Shahin Rouhani</h6>
 
-This is where Dr. Rouhani's introduction goes.
+
+<ul class="content-overview">
+  <li>Thing 1
+    <ul clas>
+      <li>Subtopic 1</li>
+      <li>Subtopic 2</li>
+      <li>Subtopic 3</li>
+    </ul>
+  </li>
+  <li>Thing 2</li>
+  <li>Thing 3</li>
+</ul>
+
 
 ---
 
@@ -188,11 +233,36 @@ This is where Dr. Rouhani's introduction goes.
 This is where the content goes
 
 ---
-layout: section
+layout: full
 ---
-# Web2 + 1
+<div class="break-cover">
+  <p> Coffee Time! </p>
+  <img src="/assets/images/loading/moving-cube.gif" style="height:50%;resize-mode:contain;width:50%;">
+</div>
 
-This is where Amir Khalaj's introduction goes.
+
+
+---
+layout: image-left
+image: ./assets/images/intros/Amirkhalaj.jpg
+---
+
+<h1 class="slide-title">Web2+1</h1>
+
+<h6 class="secondary-title">Presented by Amir Khalaj</h6>
+
+
+<ul class="content-overview">
+  <li>Thing 1
+    <ul clas>
+      <li>Subtopic 1</li>
+      <li>Subtopic 2</li>
+      <li>Subtopic 3</li>
+    </ul>
+  </li>
+  <li>Thing 2</li>
+  <li>Thing 3</li>
+</ul>
 
 ---
 
@@ -202,13 +272,29 @@ This is where the content goes
 
 
 ---
-layout: section
+layout: image-left
+image: ./assets/images/intros/mort.jpg
 ---
-# NFTs
 
-This is where Morteza Taher's introduction goes.
+<h1 class="slide-title">NFTs</h1>
+
+<h6 class="secondary-title">Presented by Morteza Taher</h6>
+
+
+<ul class="content-overview">
+  <li>Thing 1
+    <ul clas>
+      <li>Subtopic 1</li>
+      <li>Subtopic 2</li>
+      <li>Subtopic 3</li>
+    </ul>
+  </li>
+  <li>Thing 2</li>
+  <li>Thing 3</li>
+</ul>
 
 ---
+
 
 # Morteza Taher's content placeholder
 
@@ -216,11 +302,26 @@ This is where the content goes
 
 
 ---
-layout: section
+layout: image-left
+image: ./assets/images/intros/sepideh.jpg
 ---
-# Lands
 
-This is where Sepideh Cyrus's introduction goes.
+<h1 class="slide-title">Lands</h1>
+
+<h6 class="secondary-title">Presented by Sepideh Cyrus</h6>
+
+
+<ul class="content-overview">
+  <li>Thing 1
+    <ul clas>
+      <li>Subtopic 1</li>
+      <li>Subtopic 2</li>
+      <li>Subtopic 3</li>
+    </ul>
+  </li>
+  <li>Thing 2</li>
+  <li>Thing 3</li>
+</ul>
 
 ---
 
@@ -228,18 +329,37 @@ This is where Sepideh Cyrus's introduction goes.
 
 This is where the content goes
 
----
-layout: cover
----
-
-Lunch Time!
 
 ---
-layout: section
+layout: full
 ---
-# Qollak
 
-This is where the Qollak introduction goes
+<div class="break-cover">
+  <img src="/assets/images/loading/moving-circle.gif" style="height:80%;resize-mode:contain">
+  <p class="absolute-center">Lunch Time</p>
+</div>
+
+---
+layout: image-left
+image: ./assets/images/intros/qollak.jpg
+---
+
+<h1 class="slide-title">Qollak</h1>
+
+<h6 class="secondary-title">Presented by Ali Nik (ft. Sheedeh Sharif)</h6>
+
+
+<ul class="content-overview">
+  <li>Thing 1
+    <ul clas>
+      <li>Subtopic 1</li>
+      <li>Subtopic 2</li>
+      <li>Subtopic 3</li>
+    </ul>
+  </li>
+  <li>Thing 2</li>
+  <li>Thing 3</li>
+</ul>
 
 ---
 
@@ -249,17 +369,21 @@ This is where the content goes
 
 
 ---
-layout: cover
+layout: full
+---
+<div class="break-cover">
+  <p> Coffee Time! </p>
+  <img src="/assets/images/loading/moving-cube.gif" style="height:50%;resize-mode:contain;width:50%;">
+</div>
+
+----
+layout: image-left
+image: ./assets/images/intros/farzin.jpg
 ---
 
-Coffee Time!
+<h1 class="slide-title">Panel</h1>
 
----
-layout: section
----
-# Panel Time
-
-This is where the panel page
+<h6 class="secondary-title">Presented by many people</h6>
 
 
 ---
