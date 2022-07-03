@@ -251,6 +251,15 @@ image: ./assets/images/intros/Alimansour.jpg
 
 
 ---
+layout: center
+---
+
+
+<video controls>
+  <source src="assets/videos/bank.mp4" type="video/mp4">
+</video>
+
+---
 
 # Ali Mansour's content placeholder
 
