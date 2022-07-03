@@ -105,6 +105,34 @@ svg:hover #logo-svg{
 
 
 ---
+layout:default
+---
+# Previously On Nonce Academy
+<!-- TODO: link on hover -->
+<div class="center-container" style="border:none">
+<a href="https://nonce.academy/talks/a-secure-trust-model" target="_blank" style="border: none">
+
+  <div style="width:600px; height:300px; border: 2px solid var(--main-color); box-shadow: -5px 5px 15px 1px #000000;position:relative; ">
+    <img src='/assets/images/old/home.jpg'  style="width:100%;height:100%;resize-mode:contain; position: absolute; top:0; left:0; z-index:1 !important" />
+
+  <div style="position: absolute;  left:0;  height: 300px; width: 600px; z-index: 99; display: flex; flex-direction: column-reverse; align-items: center; ;">
+    <div style="background-color:rgba(255, 255, 255, 0.15); height: 20%; width: 70%; margin-bottom:7px; border-radius: 7px; padding: 5px;">
+      <h4 style="letter-spacing: 1px; font-weight:bold; font-family: 'Lucida Console', monospace; text-align:center; margin-bottom: 3px">A Secure Trust Model</h4>
+      <p class="teritary-title" style="margin-top:-5px;">May 12<sup>th</sup>, 2022
+      </p>
+
+  </div>
+  </div>
+  </div>
+
+
+
+</a>
+</div>
+
+
+
+---
 layout: intro
 ---
 

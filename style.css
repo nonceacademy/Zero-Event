@@ -1,12 +1,26 @@
-.slidev-layout {
-    background-color: #1d1d1d;
+:root {
+    --main-color: #DA0037;
+    --main-bg: #1D1D1D;
+    --main-bg-darker: #171717;
 }
 
+.slidev-layout {
+    background-color: var(--main-bg);
+}
+
+.center-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 h1.slide-title {
     font-size: 48px;
     letter-spacing: 3px;
-    color: #DA0037;
+    color: var(--main-color);
     text-transform: uppercase;
     font-family: monospace;
 }
@@ -16,6 +30,14 @@ h1.slide-title {
     font-size: 16px;
     padding: 0 40px;
     text-indent: -20px;
+}
+
+.teritary-title {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
 }
 
 
