@@ -29,7 +29,7 @@ record: false
 preload: false
 
 layout: cover
-background: 'assets/images/old/home.jpg'
+background: 'assets/images/intro.jpg'
 
 title: "A Secure Trust Model"
 titleTemplate: '%s - Nonce Academy'
