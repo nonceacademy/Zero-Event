@@ -208,24 +208,243 @@ image: ./assets/images/intros/Dr.farahani.jpg
 
 
 <ul class="content-overview">
-  <li>Thing 1
-    <ul clas>
-      <li>Subtopic 1</li>
-      <li>Subtopic 2</li>
-      <li>Subtopic 3</li>
-    </ul>
-  </li>
-  <li>Thing 2</li>
-  <li>Thing 3</li>
+  <li>How the technology behind cryptocurrencies can be applied to different sciences</li>
+  <li>Real-world blockchain applications in various sectors</li>
+  <li>Research gaps in various fields and how DLTs can help fill these gaps</li>
 </ul>
+
+---
+layout: default
+---
+
+# An Opportunity on Every Layer
+
+<li>The research opportunities are endless</li>
+<li>Different layers have very different research topics</li>
+
+
+<img class="relative w-150 mx-auto " src="assets/images/old/arch_layers3.png">
+
+
+---
+layout: default
+---
+
+# Level 0: Distributed Ledger Technologies and the P2P Network
+
+Distributed Ledger Technologies (DLTs) are a consensus of replicated, shared and synchronized digital data geographically spread across multiple locations using a peer-to-peer network and unlike centralized databases, there is no central 
+administrator. 
+
+<li>At their core, they’re no more than simple data structures</li>
+<li> The goal is to not trust each other</li>
+<li>We're not limited to using the blockchain</li>
+
+
+
+<img class="relative w-150 mx-auto " src="assets/images/misc/dlt_archs.png">
+
+---
+
+# Level 0: Research Opportunities
+
+<b>Why use anything other than a blockchain?</b>
+<li>Tangle is uniquely scalable, quantum resistant (secure against an attack from a quantum computer) and makes micro transactions feasible through low cost fees.</li>
+<li>Reach quick consensus with Hashgraph.</li>
+<li>With sidechains, merge blockchains together to increase performance.</li>
 
 
 ---
 
-# Dr. Farahani's content placeholder
+# Level 1: Consensus Algorithms
 
-This is where the content goes
+Consensus algorithms are a popular research topic.
 
+Chain-based Proof of Work: By solving computationally intensive mathematical *'puzzels'*
+<li>Used in Bitcoin and Ethereum 1.0</li>
+<li>Too computationally expensive?</li>
+<li>Reusable Proof of Work (RPoW): a solution?</li>
+
+
+---
+
+# Level 1: Research Opportunities
+
+
+Proof of Stake (POS): Stake digital items of value
+
+<li>There’s more: Proof of Burn (PoB), Proof of Capacity (PoC), and many many more…</li>
+
+Research to customize to your own needs.
+
+
+---
+
+# Level 2: Blockchain Data Structure
+
+A blockchain is nothing more than a back-linked linked list.
+<br>
+Cryptography is what holds everything together
+<li>Hashing is key</li>
+
+<img class="relative w-150 mx-auto " src="assets/images/misc/simple_blockchain.png">
+
+---
+
+# Level 2: Blockchain Data Structure
+
+With blockchain technologies, we can count on security and decentralization.
+<br>
+So much more than “just” cryptocurrencies.
+<li>At the most basic level, there are tokens too!</li>
+
+
+---
+
+# Level 2: Research Opportunities
+
+A new solution every day: DeFi, DAOs, and so much more…
+
+
+The sky is the limit!
+
+---
+
+# Level 3: Blockchain and Game Theory
+
+Game theory is a study of mathematical models of strategic interaction between rational decision-makers. 
+<li>Game theory can be used to analyze the strategies of the consensus nodes as well as the interactions among them. </li>
+
+Game theory has many applications in the field of blockchain-based cryptocurrencies, such as
+<ul>
+<li>Security</li>
+<li>Mining Management</li>
+<li>Applications of Game Theory on top of a Blockchain Platform</li>
+</ul>
+
+---
+
+# Level 3: Research Opportunities
+
+Challenges in the blockchain platform from a game theory perspective include
+<ul>
+<li>Existence of Nash Equilibria</li>
+<li>Implementation of Game Models</li>
+</ul>
+
+<Footnotes separator>
+  <Footnote>Concepts Needed: Deep knowledge of the mining process, economics of mining, game theory</Footnote>
+</Footnotes>
+
+---
+
+# Level 3: (More) Research Opportunities
+
+More open issues and research directions for applications of game theory in blockchain include
+<ul>
+<li>Throughput Improvement</li>
+<li>Alternative Consensus Mechanisms (ex. Proof of Useful Work or Resources (PoUWR))</li>
+<li>Permissioned Ledger Types</li>
+</ul>
+
+<Footnotes separator>
+  <Footnote>Concepts Needed: Deep knowledge of the mining process, economics of mining, game theory</Footnote>
+</Footnotes>
+
+---
+
+# Level 4: Artificial Intelligence and Blockchain
+
+The decentralized AI enables to process and perform analytics or decision making on trusted, digitally signed, and secure shared data that has been transacted and stored on the blockchain, in a distributed and decentralized fashion, without Trusted Third Parties or intermediaries.
+
+<li>Privacy in AI has become a serious issue recently.</li>
+<li>AI to overcome the limitations of the blockchain</li>
+
+
+---
+
+# Level 4: Artificial Intelligence and Blockchain
+
+Several trends and their applications are shown in the table below:
+<img class="relative w-150 mx-auto " src="assets/images/misc/blockchain+ai.png">
+
+
+---
+
+# Level 4: Research Opportunities
+
+Blockchains can offer explainability, privacy, and trust to AI-based applications, whereas AI can enhance scalability and security while resolving the personalization and governance issues for blockchain-based technologies. 
+
+<ul>
+<li>Executing AI models within smart contracts</li>
+<li>Predicting gas prices</li>
+<li>Using AI to analyze data recorded on a blockchain</li>
+</ul>
+
+
+<Footnotes separator>
+  <Footnote>Concepts Needed: Statistics, Machine Learning, ability to process and mine information from big data</Footnote>
+</Footnotes>
+
+---
+
+# Level 5: Internet of Things and Blockchain
+
+<li>Why though?</li>
+<li>Blockchain + IoT = BCIoT</li>
+
+
+---
+
+# Research Opportunities
+
+There are still issues such as data management, scalability and communication costs.
+
+Application fields include
+
+<ul>
+<li>State-of-the-art eHealth frameworks for patient record keeping and tracking</li>
+<li>Application of BCIoT for providing seamless connectivity between clients and industrial applications in smart cities</li>
+<li>Blockchain-assisted framework for managing large-scale robotics networks, such as Internet-of-Drones (IoD)</li>
+</ul>
+
+<Footnotes separator>
+  <Footnote>Concepts Needed: Basic networking, basic ability to process and analyze data at a relatively large scale.</Footnote>
+</Footnotes>
+
+---
+
+# Level 6: Cloud Computing and Blockchain
+
+
+Cloud computing has a data integrity problem, and blockchain can fix that.
+
+In general, there are three major trust risks in cloud computing platforms:
+<ol>
+<li>Loss of control</li>
+<li>Lack of transparency</li>
+<li>Lack of a clear security assurance</li>
+</ol>
+
+Blockchain can be upgraded into a secure service.
+
+---
+
+# Level 6: Research Opportunities
+
+Blockchain could be a solution – in the future though.
+
+Some future research directions could include:
+
+<ul>
+<li>Decentralized trust relationship construction and maintenance</li>
+<li>Customized blockchain operation mechanisms for trust</li>
+<li>Risk control</li>
+</ul>
+
+
+<Footnotes separator>
+  <Footnote>Concepts Needed: Advanced networking, parallelization, process management, etc.</Footnote>
+</Footnotes>
 
 ---
 layout: image-left
@@ -289,7 +508,6 @@ The solution? Decentralized finance, better known as <b>DeFi</b>.
 <ul>
 <li>"DeFi" is an umbrella term.</li>
 <li>DeFi strives to fulfill centralized finance, or CeFi</li>
-<li>DeFi is very likely to shake things up at a macroeconomic level</li>
 </ul>
 
 
@@ -332,9 +550,15 @@ layout: default
 
 # What's in Store?
 
-Despite already producing real, working applications that have already attracted billions in capital <a href="https://www.defipulse.com/" target="_blank">(Over 40 billion Total Value Locked (TVL) as July 2022)</a> with a market cap of 500 billion USD DeFi is just beginning to grow.
-
-As of July 2020, the capitalization of all Defi Applications was just 5%.
+Already implemented DeFi platforms: 
+<ul>
+<li>Decentralized Exchanges (DEXs)</li>
+<li>Decentralized Autonomous Organizations (DAOs)</li>
+<li>Staking</li>
+<li>Swaping</li>
+<li>Liquidity Pools</li>
+<li>Flash Loans</li>
+</ul>
 
 
 Billions of people still don’t have access yet!
@@ -347,12 +571,18 @@ layout:default
 
 # The DARQ Future
 
-DARQ is referred to as Distributed Ledger Technologies, which include technologies such as artificial intelligence (AI), blockchain, cryptocurrency, extended reality, and quantum computing.
+DARQ includes technologies such as:
+<li><b>D</b>: (D)istributed ledger technology</li>
+<li><b>A</b>: (A)rtificial intelligence</li>
+<li><b>R</b>: Extended (R)eality</li>
+<li><b>Q</b>: (Q)uantum Computing</li>
+
+
 Massive industry players like Google, IBM, Amazon, Facebook, etc. are already in the game.
 
 DARQ is likely to have a game-changing effect on a global scale. 
 
-The future is bright!
+The future is complicated!
 
 ---
 layout: image-left
