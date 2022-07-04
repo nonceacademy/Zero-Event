@@ -561,8 +561,7 @@ In blockchain terminology, a green paper is a white paper for an environmentally
 layout: full
 ---
 <div class="break-cover">
-  <p> Coffee Time! </p>
-  <img src="/assets/images/loading/moving-cube.gif" style="height:50%;resize-mode:contain;width:50%;">
+  <Countdown countdownTime=20 title="Coffee Time!" />
 </div>
 
 
@@ -660,8 +659,7 @@ layout: full
 ---
 
 <div class="break-cover">
-  <img src="/assets/images/loading/moving-circle.gif" style="height:80%;resize-mode:contain">
-  <p class="absolute-center">Lunch Time</p>
+  <CountdownCircular countdownTime=60 title="Lunch Time!" />
 </div>
 
 ---
@@ -697,8 +695,7 @@ This is where the content goes
 layout: full
 ---
 <div class="break-cover">
-  <p> Coffee Time! </p>
-  <img src="/assets/images/loading/moving-cube.gif" style="height:50%;resize-mode:contain;width:50%;">
+  <Countdown countdownTime=20 title="Coffee Time!" />
 </div>
 
 ----
