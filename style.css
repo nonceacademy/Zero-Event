@@ -1,11 +1,15 @@
 :root {
     --main-color: #DA0037;
-    --main-bg: #1D1D1D;
+    --main-bg: #191919;
     --main-bg-darker: #171717;
 }
 
 .slidev-layout {
     background-color: var(--main-bg);
+}
+
+img {
+    object-fit: contain;
 }
 
 .center-container {
@@ -43,7 +47,7 @@ h1.slide-title {
 
 ul.content-overview {
     padding-top: 30px;
-    font-size: 32px;
+    font-size: 24px;
 }
 
 

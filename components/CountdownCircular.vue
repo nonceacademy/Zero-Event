@@ -68,6 +68,7 @@
   margin-top: auto;
   margin-bottom: auto;
   z-index: 1;
+  object-fit: contain;
 }
 </style>
 

@@ -19,7 +19,7 @@
     </button>
     <img
       src="/assets/images/loading/moving-cube.gif"
-      style="height: 50%; resize-mode: contain; width: 50%"
+      style="height: 50%; object-fit: contain; width: 50%"
       v-if="timerStarted"
     />
   </div>

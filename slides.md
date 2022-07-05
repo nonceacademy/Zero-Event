@@ -207,7 +207,7 @@ image: ./assets/images/intros/Dr.farahani.jpg
 <h6 class="secondary-title">Presented by Dr. Hadi Farahani</h6>
 
 
-<ul class="content-overview">
+<ul class="content-overview" style="font-size:24px">
   <li>How the technology behind cryptocurrencies can be applied to different sciences</li>
   <li>Real-world blockchain applications in various sectors</li>
   <li>Research gaps in various fields and how DLTs can help fill these gaps</li>
@@ -218,12 +218,12 @@ layout: default
 ---
 
 # An Opportunity on Every Layer
+<img class="relative mx-auto" style="height:80%; float:right" src="assets/images/old/arch_layers3.png">
 
 <li>The research opportunities are endless</li>
 <li>Different layers have very different research topics</li>
 
 
-<img class="relative w-150 mx-auto " src="assets/images/old/arch_layers3.png">
 
 
 ---
@@ -232,26 +232,63 @@ layout: default
 
 # Level 0: Distributed Ledger Technologies and the P2P Network
 
+<img  src="assets/images/misc/dlt_archs.png" style="float:right;object-fit:contain; width:45%; margin: 20px;">
+<p style="text-align:justify">
 Distributed Ledger Technologies (DLTs) are a consensus of replicated, shared and synchronized digital data geographically spread across multiple locations using a peer-to-peer network and unlike centralized databases, there is no central 
 administrator. 
 
 <li>At their core, they’re no more than simple data structures</li>
 <li> The goal is to not trust each other</li>
 <li>We're not limited to using the blockchain</li>
+</p>
 
 
 
-<img class="relative w-150 mx-auto " src="assets/images/misc/dlt_archs.png">
 
 ---
 
 # Level 0: Research Opportunities
 
 <b>Why use anything other than a blockchain?</b>
+<div style="font-size:15px; margin-bottom:20px">
 <li>Tangle is uniquely scalable, quantum resistant (secure against an attack from a quantum computer) and makes micro transactions feasible through low cost fees.</li>
 <li>Reach quick consensus with Hashgraph.</li>
 <li>With sidechains, merge blockchains together to increase performance.</li>
+</div>
+<em><u>Further Reading:</u></em>
 
+<div style="display:flex; width: 100%;justify-content:space-between; margin: 10px 0;">
+<LinkHolder 
+  link="https://eprint.iacr.org/2016/555.pdf" 
+  style="width:48%;"
+  year=2016
+  paperName="On the Security and Performance of Proof of Work Blockchains"
+  author="A. Gervais et al."
+/>
+<LinkHolder 
+  link="https://www.researchgate.net/publication/328349426_A_Review_of_Distributed_Ledger_Technologies_Confederated_International_Conferences_CoopIS_CTC_and_ODBASE_2018_Valletta_Malta_October_22-26_2018_Proceedings_Part_II" 
+  style="width:48%;"
+  year=2018
+  paperName="A Review of Distributed Ledger Technologies"
+  author="N. El Ioini & C. Pahl"
+/>
+</div>
+<div style="display:flex; width: 100%;justify-content:space-between; margin: 10px 0;">
+<LinkHolder 
+  link="https://ferdinand-steinbeis-institut.de/wp-content/uploads/2020/11/Distributed-Ledger-Definition-and-Demarcation_Burkhardt-und-Werling.pdf" 
+  style="width:48%; height: 110px;"
+  year=2020
+  paperName="Distributed Ledger: Definition & Demarcation"
+  author="D. Burkhardt & M. Werling"
+/>
+<LinkHolder 
+  link="http://scis.scichina.com/en/2021/121101.pdf" 
+  style="width:48%;"
+  year=2021
+  paperName="A Survey of Blockchain Consensus Algorithms: Mechanism, Design and Applications"
+  author="X. Fu et al."
+/>
+</div>
 
 ---
 
@@ -331,6 +368,18 @@ Challenges in the blockchain platform from a game theory perspective include
 <li>Implementation of Game Models</li>
 </ul>
 
+<em><u>Further Reading:</u></em>
+
+<div style="width:100%; display: flex; justify-content:space-between; margin: 10px 0; ">
+<LinkHolder 
+  link="https://arxiv.org/pdf/1902.10865.pdf" 
+  style="width:48%;"
+  year=2019
+  paperName="A Survey on Applications of Game Theory in Blockchain"
+  author="Z. Liu et al."
+/>
+</div>
+
 <Footnotes separator>
   <Footnote>Concepts Needed: Deep knowledge of the mining process, economics of mining, game theory</Footnote>
 </Footnotes>
@@ -345,6 +394,18 @@ More open issues and research directions for applications of game theory in bloc
 <li>Alternative Consensus Mechanisms (ex. Proof of Useful Work or Resources (PoUWR))</li>
 <li>Permissioned Ledger Types</li>
 </ul>
+
+<em><u>Further Reading:</u></em>
+
+<div style="width:100%; display: flex; justify-content:space-between; margin: 10px 0; ">
+<LinkHolder 
+  link="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9366733" 
+  style="width:48%;"
+  year=2021
+  paperName="A Systematic Review and Empirical Analysis of Blockchain Simulators"
+  author="R. Paulavicius et al."
+/>
+</div>
 
 <Footnotes separator>
   <Footnote>Concepts Needed: Deep knowledge of the mining process, economics of mining, game theory</Footnote>
@@ -365,21 +426,116 @@ The decentralized AI enables to process and perform analytics or decision making
 # Level 4: Artificial Intelligence and Blockchain
 
 Several trends and their applications are shown in the table below:
-<img class="relative w-150 mx-auto " src="assets/images/misc/blockchain+ai.png">
 
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0c3p">Trends</th>
+    <th class="tg-wotp">Objective(s)</th>
+    <th class="tg-wotp">Applications</th>
+    <th class="tg-wotp">Blockchain Benefits</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-d9lh">Explainable AI</td>
+    <td class="tg-p8mb">Designing trustworthy and interpretable transparent AI algorithms to know why the algorithm is reaching a specific decision</td>
+    <td class="tg-d9lh">- Healthcare<br>- Military<br>- Autonomous Vehicles<br></td>
+    <td class="tg-0lax">- Trust<br>- Tracing Executions<br>- Reliability<br></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Digital Twins</td>
+    <td class="tg-baqh">Translating data and intelligence from complex physical systems into applications and simulations in digital world</td>
+    <td class="tg-0lax">- Wind Turbines<br>- Aircraft Engines<br>- Offshore Vessels<br></td>
+    <td class="tg-0lax">- Trust<br>- Provenance<br>- Reliability<br></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Automated Machine Learning</td>
+    <td class="tg-baqh">Automating the whole process of machine learning from raw data acquisition to knowledge management in order to reduce manual work and faster application development</td>
+    <td class="tg-0lax">- Big Data Analytics<br>- Industry 4.0 Systems<br>- Massive Production of Intelligent Devices<br></td>
+    <td class="tg-0lax">- Permanence<br>- Immutability<br></td>
+  </tr>
+  <tr>
+    <td class="tg-d9lh">Hybrid Learning Models</td>
+    <td class="tg-p8mb">Combining different machine learning models to reach better informed decisions</td>
+    <td class="tg-d9lh">- Real-time<br>- Decision-agnostic<br>- Data source-agnostic<br></td>
+    <td class="tg-0lax">- Trust<br>- Provenance<br>- Performance<br></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Lean and Augmented Data Learning</td>
+    <td class="tg-baqh">Enabling transfer learning among different AI applications to ensure high availability of relevant and accurate data</td>
+    <td class="tg-0lax">- Low data availability applications</td>
+    <td class="tg-0lax">- Trust<br>- Provenance<br>- Reliability<br></td>
+  </tr>
+</tbody>
+</table>
+
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-color:#93a1a1;border-spacing:0;}
+.tg td{background-color:#eee;border-color:#93a1a1;border-style:solid;border-width:0px;color:#002b36;
+  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#657b83;border-color:#93a1a1;border-style:solid;border-width:0px;color:#fdf6e3;
+  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-wotp{border-color:inherit;font-family:"Times New Roman", Times, serif !important;font-size:10px;text-align:center;
+  vertical-align:top}
+.tg .tg-8hko{font-size:x-small;text-align:left;vertical-align:top}
+.tg .tg-1l0q{font-size:x-small;text-align:center;vertical-align:top}
+.tg .tg-0c3p{border-color:inherit;font-family:"Times New Roman", Times, serif !important;font-size:10px;text-align:left;
+  vertical-align:top}
+.tg .tg-qkcv{border-color:inherit;font-family:serif !important;font-size:x-small;text-align:left;vertical-align:top}
+.tg .tg-lr19{border-color:inherit;font-family:serif !important;font-size:x-small;text-align:center;vertical-align:top}
+.tg .tg-r5sc{border-color:inherit;font-family:"Times New Roman", Times, serif !important;font-size:x-small;text-align:left;
+  vertical-align:top}
+</style>
 
 ---
 
 # Level 4: Research Opportunities
 
+<div style="font-size:14px;margin-bottom:5px;">
 Blockchains can offer explainability, privacy, and trust to AI-based applications, whereas AI can enhance scalability and security while resolving the personalization and governance issues for blockchain-based technologies. 
+</div>
 
-<ul>
+<ul style="font-size:14px;margin-bottom:5px">
 <li>Executing AI models within smart contracts</li>
 <li>Predicting gas prices</li>
 <li>Using AI to analyze data recorded on a blockchain</li>
 </ul>
+<em><u style="font-size:16px">Further Reading:</u></em>
 
+<div style="display:flex; width: 100%;justify-content:space-between; margin: 10px 0;">
+<LinkHolder 
+  link="https://arxiv.org/pdf/1912.06485.pdf" 
+  style="width:48%;"
+  year=2019
+  paperName="Blockchain Intelligence: When Blockchain Meets Artificial Intelligence"
+  author="Z. Zheng et al."
+/>
+<LinkHolder 
+  link="https://www.researchgate.net/publication/331241223_Blockchain_Analytics_and_Artificial_Intelligence" 
+  style="width:48%;"
+  year="2019"
+  paperName="Blockchain Analytics and Artificial Intelligence"
+  author="D. Dillenberger"
+/>
+</div>
+<div style="display:flex; width: 100%;justify-content:space-between; margin: 10px 0;">
+<LinkHolder 
+  link="https://ieeexplore.ieee.org/ielx7/6287639/8600701/08598784.pdf" 
+  style="width:48%;height:110px"
+  year=2019
+  paperName="Blockchain for AI: Review and Open Research Challenges"
+  author="K. Salah et al."
+/>
+<LinkHolder 
+  link="https://link.springer.com/article/10.1007/s10796-022-10279-0" 
+  style="width:48%;"
+  year="2022"
+  paperName="Artificial Intelligence and Blockchain Integration in Business: Trends from a Bibliometric-Content Analysis"
+  author="S. Kumar"
+/>
+</div>
 
 <Footnotes separator>
   <Footnote>Concepts Needed: Statistics, Machine Learning, ability to process and mine information from big data</Footnote>
@@ -395,17 +551,35 @@ Blockchains can offer explainability, privacy, and trust to AI-based application
 
 ---
 
-# Research Opportunities
+# Level 5: Research Opportunities
 
 There are still issues such as data management, scalability and communication costs.
 
 Application fields include
 
-<ul>
+<ul style="font-size:16px">
 <li>State-of-the-art eHealth frameworks for patient record keeping and tracking</li>
 <li>Application of BCIoT for providing seamless connectivity between clients and industrial applications in smart cities</li>
 <li>Blockchain-assisted framework for managing large-scale robotics networks, such as Internet-of-Drones (IoD)</li>
 </ul>
+
+<em><u>Further Reading:</u></em>
+<div style="display:flex; width: 100%;justify-content:space-between; margin: 10px 0;">
+<LinkHolder 
+  link="https://arxiv.org/pdf/2001.01841.pdf" 
+  style="width:48%;"
+  year=2020
+  paperName="Towards a Secure Behavior Modeling for IoT Networks Using Blockchain"
+  author="J. Ali et al."
+/>
+<LinkHolder 
+  link="https://www.sciencedirect.com/science/article/pii/S2096720921000014" 
+  style="width:48%;"
+  year="2021"
+  paperName="A Survey on the Adoption of Blockchain in IoT: Challenges and Solutions"
+  author="A. Uddin"
+/>
+</div>
 
 <Footnotes separator>
   <Footnote>Concepts Needed: Basic networking, basic ability to process and analyze data at a relatively large scale.</Footnote>
@@ -441,6 +615,17 @@ Some future research directions could include:
 <li>Risk control</li>
 </ul>
 
+<em><u>Further Reading:</u></em>
+<div style="display:flex; width: 100%;justify-content:space-between; margin: 10px 0;">
+<LinkHolder 
+  link="https://journalofcloudcomputing.springeropen.com/track/pdf/10.1186/s13677-021-00247-5.pdf" 
+  style="width:48%;"
+  year=2021
+  paperName="Blockchain-Based Trust Management in Cloud Computing Systems: A Taxonomy, Review and Future Directions"
+  author="W. Li et al."
+/>
+
+</div>
 
 <Footnotes separator>
   <Footnote>Concepts Needed: Advanced networking, parallelization, process management, etc.</Footnote>
@@ -553,11 +738,11 @@ layout: default
 Already implemented DeFi platforms: 
 <ul>
 <li>Decentralized Exchanges (DEXs)</li>
-<li>Decentralized Autonomous Organizations (DAOs)</li>
+<li>Lending</li>
 <li>Staking</li>
 <li>Swaping</li>
 <li>Liquidity Pools</li>
-<li>Flash Loans</li>
+<li>Farming</li>
 </ul>
 
 
@@ -677,7 +862,7 @@ layout: default
 
 A beige paper is a rewrite of a yellow paper for readability. It re-formats the yellow paper into a more organized format and is usually easier to understand. The information on the beige paper is not as difficult to grasp as a yellow paper.
 
-<img src="/assets/images/misc/paper_difficulty.png" />
+<img src="/assets/images/misc/paper_difficulty.png" style="margin-left:auto; margin-right:auto" />
 
 ---
 layout: default
@@ -720,7 +905,7 @@ layout: default
 
 The term "white paper" comes to us from a 100-year-old practice of government reporting in the UK. 
 
-government agencies provided data to Parliament to help them make decisions, they would offer a short, focused reports on a single topic with white covers. 
+Government agencies provided data to Parliament to help them make decisions, they would offer a short, focused reports on a single topic with white covers. 
 
 This document with information to solve a problem, is now known in many industries as a "white paper." 
 
@@ -735,7 +920,7 @@ image: ./assets/images/papers/scientific_paper.png
 # Scientific Paper
 
 
-A scientific paper is a document reporting the progress of a scientific activity. It shoudl not be biased, and should be based on sound mathematical and/or experimental data and is peer reviewed.
+A scientific paper is a document reporting the progress of a scientific activity. It should not be biased, and should be based on sound mathematical and/or experimental data and is peer reviewed.
 
 Although recently, peer review for white papers may be necessary.
 
@@ -819,10 +1004,139 @@ image: ./assets/images/intros/Amirkhalaj.jpg
 </ul>
 
 ---
+layout: section
+---
 
-# Amir Khalaj's content placeholder
+# Web X.Y
 
-This is where the content goes
+---
+layout: center
+---
+
+<img src="/assets/images/amirkhalaj/1.png" style="object-fit:contain; max-height:500px; margin-right:300px">
+
+
+---
+layout: center
+---
+
+<img src="/assets/images/amirkhalaj/2.png" style="object-fit:contain; max-height:500px; ">
+
+
+---
+layout: center
+---
+
+<img src="/assets/images/amirkhalaj/3.png" style="object-fit:contain; max-height:500px; margin-left:300px">
+
+
+---
+layout: center
+---
+
+<img src="/assets/images/amirkhalaj/4.png" style="object-fit:contain; max-height:500px">
+
+---
+
+# Web 3.0 Features
+
+<ol>
+<li>Semantic web</li>
+<li>Artificial Intelligence (AI)</li>
+<li>3D Graphics</li>
+<li>Connectivity</li>
+<li>Ubiquity</li>
+<li>Decentralized Technology</li>
+</ol>
+
+---
+layout: fact
+---
+
+# You Must Migrate to Web 3.0
+
+---
+layout: quote
+---
+
+
+# “It isn’t often you’d hear tech companies described as dinosaurs, but they are indeed now just that and need to evolve or risk being relegated to an era past.”
+
+---
+layout: section
+---
+
+# Business Opportunities And Ideas for Web 3.0
+
+---
+
+<ul>
+<li>Developing dApps or Decentralized Applications </li>
+<li>Software as a Service (SaaS)</li>
+<li>Decentralized finance or DeFi Services</li>
+<li>Backend as a Service (BaaS)</li>
+</ul>
+
+---
+layout: section
+---
+
+# Challenges and Issues
+
+---
+layout: section
+---
+
+# Web 3 is Chaotic
+
+---
+layout: center
+---
+
+<img src="/assets/images/amirkhalaj/5.webp">
+
+
+---
+layout: section
+---
+
+# Web 3 is Hard to Develop
+
+---
+layout: center
+---
+
+<img src="/assets/images/amirkhalaj/6.webp">
+
+---
+layout: section
+---
+
+# No benefits for mainstream businesses
+
+---
+layout: center
+---
+
+<img src="/assets/images/amirkhalaj/7.webp">
+
+---
+layout: section
+---
+
+# Crypto crush will ruin all Web3 perspectives
+
+---
+layout: center
+---
+
+<img src="/assets/images/amirkhalaj/8.webp">
+
+---
+layout: section
+---
+
+# The future is here for businesses
 
 
 ---
