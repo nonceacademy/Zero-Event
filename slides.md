@@ -117,17 +117,7 @@ image: ./assets/images/intros/0xanik.jpg
 <h6 class="secondary-title">Presented by Ali Nik</h6>
 
 
-<ul class="content-overview">
-  <li>Thing 1
-    <ul clas>
-      <li>Subtopic 1</li>
-      <li>Subtopic 2</li>
-      <li>Subtopic 3</li>
-    </ul>
-  </li>
-  <li>Thing 2</li>
-  <li>Thing 3</li>
-</ul>
+
 
 
 ---
@@ -207,11 +197,6 @@ image: ./assets/images/intros/Dr.farahani.jpg
 <h6 class="secondary-title">Presented by Dr. Hadi Farahani</h6>
 
 
-<ul class="content-overview" style="font-size:24px">
-  <li>How the technology behind cryptocurrencies can be applied to different sciences</li>
-  <li>Real-world blockchain applications in various sectors</li>
-  <li>Research gaps in various fields and how DLTs can help fill these gaps</li>
-</ul>
 
 ---
 layout: default
@@ -641,19 +626,6 @@ image: ./assets/images/intros/Alimansour.jpg
 <h6 class="secondary-title">Presented by Ali Mansour</h6>
 
 
-<ul class="content-overview">
-  <li>Thing 1
-    <ul clas>
-      <li>Subtopic 1</li>
-      <li>Subtopic 2</li>
-      <li>Subtopic 3</li>
-    </ul>
-  </li>
-  <li>Thing 2</li>
-  <li>Thing 3</li>
-</ul>
-
-
 ---
 layout: center
 ---
@@ -779,17 +751,6 @@ image: ./assets/images/intros/Dr.rouhani.jpg
 <h6 class="secondary-title">Presented by Dr. Shahin Rouhani</h6>
 
 
-<ul class="content-overview">
-  <li>Thing 1
-    <ul clas>
-      <li>Subtopic 1</li>
-      <li>Subtopic 2</li>
-      <li>Subtopic 3</li>
-    </ul>
-  </li>
-  <li>Thing 2</li>
-  <li>Thing 3</li>
-</ul>
 
 ---
 layout:default
@@ -991,17 +952,7 @@ image: ./assets/images/intros/Amirkhalaj.jpg
 <h6 class="secondary-title">Presented by Amir Khalaj</h6>
 
 
-<ul class="content-overview">
-  <li>Thing 1
-    <ul clas>
-      <li>Subtopic 1</li>
-      <li>Subtopic 2</li>
-      <li>Subtopic 3</li>
-    </ul>
-  </li>
-  <li>Thing 2</li>
-  <li>Thing 3</li>
-</ul>
+
 
 ---
 layout: section
@@ -1149,17 +1100,7 @@ image: ./assets/images/intros/mort.jpg
 <h6 class="secondary-title">Presented by Morteza Taher</h6>
 
 
-<ul class="content-overview">
-  <li>Thing 1
-    <ul clas>
-      <li>Subtopic 1</li>
-      <li>Subtopic 2</li>
-      <li>Subtopic 3</li>
-    </ul>
-  </li>
-  <li>Thing 2</li>
-  <li>Thing 3</li>
-</ul>
+
 
 ---
 
@@ -1179,17 +1120,7 @@ image: ./assets/images/intros/sepideh.jpg
 <h6 class="secondary-title">Presented by Sepideh Cyrus</h6>
 
 
-<ul class="content-overview">
-  <li>Thing 1
-    <ul clas>
-      <li>Subtopic 1</li>
-      <li>Subtopic 2</li>
-      <li>Subtopic 3</li>
-    </ul>
-  </li>
-  <li>Thing 2</li>
-  <li>Thing 3</li>
-</ul>
+
 
 ---
 
@@ -1215,18 +1146,6 @@ image: ./assets/images/intros/qollak.jpg
 
 <h6 class="secondary-title">Presented by Ali Nik (ft. Sheedeh Sharif)</h6>
 
-
-<ul class="content-overview">
-  <li>Thing 1
-    <ul clas>
-      <li>Subtopic 1</li>
-      <li>Subtopic 2</li>
-      <li>Subtopic 3</li>
-    </ul>
-  </li>
-  <li>Thing 2</li>
-  <li>Thing 3</li>
-</ul>
 
 ---
 
