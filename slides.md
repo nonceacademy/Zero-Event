@@ -1477,7 +1477,21 @@ Smart contracts are programs that automatically execute transactions if certain 
 
 <img v-after class="absolute w-200 mx-auto bottom-0" src="/assets/images/qollak/sc.png">
 
+
 ---
+layout: full
+---
+
+<img src="assets/images/qollak/evm1.png" style="position: absolute;height:100%;object-fit:contain;right:0;left:0;margin-right: auto;margin-left:auto;top:0">
+
+---
+layout: full
+---
+
+<img src="assets/images/qollak/machinespace.png" style="position: absolute;height:100%;object-fit:contain;right:0;left:0;margin-right: auto;margin-left:auto;top:0">
+
+---
+
 
 # Smart Contract Languages
 
@@ -1597,6 +1611,13 @@ function breakMyQollak() payable public {
 }
 ```
 </v-click>
+
+---
+layout: full
+---
+
+<img src="assets/images/qollak/roadmap.png" style="position: absolute;height:100%;object-fit:contain;right:0;left:0;margin-right: auto;margin-left:auto;top:0">
+
 
 ---
 layout: section
