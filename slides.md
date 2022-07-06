@@ -335,11 +335,16 @@ Chain-based Proof of Work: By solving computationally intensive mathematical *'p
 # Level 1: Research Opportunities
 
 
+<!-- <div style="display:flex; flex-direction:column;justify-content:center; justify-items:center;align-items:start; align-content:center; width:100%; height: 100%;"> -->
+<br/><br/>
 Proof of Stake (POS): Stake digital items of value
+<br/><br/><br/><br/><br/>
 
 <li>There’s more: Proof of Burn (PoB), Proof of Capacity (PoC), and many many more…</li>
 
+<br/><br/><br/>
 Research to customize to your own needs.
+<!-- </div> -->
 
 
 ---
@@ -357,10 +362,12 @@ Cryptography is what holds everything together
 
 # Level 2: Blockchain Data Structure
 
+<div style="display:flex; flex-direction:column;justify-content:center; justify-items:center;align-items:center; align-content:center; width:100%; height: 60%;">
 With blockchain technologies, we can count on security and decentralization.
 <br>
 So much more than “just” cryptocurrencies.
-<li>At the most basic level, there are tokens too!</li>
+<li style="margin-top:20px;">At the most basic level, there are tokens too!</li>
+</div>
 
 
 ---
@@ -463,8 +470,8 @@ More open issues and research directions for applications of game theory in bloc
 # Level 4: Artificial Intelligence and Blockchain
 
 The decentralized AI enables to process and perform analytics or decision making on trusted, digitally signed, and secure shared data that has been transacted and stored on the blockchain, in a distributed and decentralized fashion, without Trusted Third Parties or intermediaries.
-
-<li>Privacy in AI has become a serious issue recently.</li>
+<br /><br /><br />
+<li>Privacy in AI has become a serious issue recently.</li><br /><br /><br />
 <li>AI to overcome the limitations of the blockchain</li>
 
 
@@ -592,7 +599,9 @@ Blockchains can offer explainability, privacy, and trust to AI-based application
 
 # Level 5: Internet of Things and Blockchain
 
+<br /><br /><br />
 <li>Why though?</li>
+<br /><br /><br /><br /><br />
 <li>Blockchain + IoT = BCIoT</li>
 
 
@@ -724,7 +733,13 @@ layout: default
 The solution? Decentralized finance, better known as <b>DeFi</b>.
 
 <ul>
+<br />
+<br />
+<br />
 <li>"DeFi" is an umbrella term.</li>
+<br />
+<br />
+<br />
 <li>DeFi strives to fulfill centralized finance, or CeFi</li>
 </ul>
 
@@ -872,7 +887,7 @@ layout: section
 The white paper is mandatory. The other two are optional.
 
 ---
-layout: default
+layout: center
 ---
 
 # Yellow Paper
@@ -952,7 +967,7 @@ A scientific paper is a document reporting the progress of a scientific activity
 Although recently, peer review for white papers may be necessary.
 
 ---
-layout: default
+layout: center
 ---
 
 # Peer Review in Blockchain
@@ -965,7 +980,7 @@ It describes the worl of blockchain white papers, where many of them are not up 
 The peer review process is suggested for white papers.
 
 ---
-layout: default
+layout: center
 ---
 
 # Peer Review in Blockchain
@@ -977,7 +992,7 @@ Peer review is a process by which a white paper is sent to a number of experts i
 Finally, the white paper is published in a blog/open source journal/reference stie where the reader is assured that what is claimed has at least been checked by experts.
 
 ---
-layout: default
+layout: center
 ---
 
 # Peer Review
@@ -988,7 +1003,7 @@ For examples, please refer to: <a href="https://arxiv.org/archive/math" target="
 
 
 ---
-layout: default
+layout: center
 ---
 
 # Green Paper
@@ -1052,6 +1067,8 @@ layout: center
 
 <img src="/assets/images/amirkhalaj/4.png" style="object-fit:contain; max-height:500px">
 
+---
+layout: center
 ---
 
 # Web 3.0 Features
