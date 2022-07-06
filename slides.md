@@ -31,7 +31,7 @@ preload: false
 layout: cover
 background: 'assets/images/intro.jpg'
 
-title: "A Secure Trust Model"
+title: "Zero Event"
 titleTemplate: '%s - Nonce Academy'
 ---
 
@@ -105,20 +105,87 @@ svg:hover #logo-svg{
 
 ---
 
-# Welcome
+<div class="my-fact">
+
+## WELCOME TO
+# ZERO <sup>1</sup> EVENT: WEB3.0 FOR ALL! <sup>2</sup>
+</div>
+
+<Footnotes separator>
+  <Footnote :number=1><a href="https://www.cs.utexas.edu/users/EWD/ewd08xx/EWD831.PDF" rel="noreferrer" target="_blank">Dijkstra, Edsger (1982), Why numbering should start at zero</a></Footnote>
+  <Footnote :number=2><a href="https://www.cetfund.org/wp-content/uploads/2020/12/CETF-Digital-Equity-Bill-of-Rights-Nov-5-2020.pdf" rel="noreferrer" target="_blank">DIGITAL EQUITY BILL OF RIGHTS</a></Footnote>
+</Footnotes>
+
+
+<style>
+.my-fact {
+    @apply text-center grid h-full;
+  h1 {
+    margin-top: -130px;
+    @apply text-8xl font-700;
+  }
+  h1 + p {
+    @apply font-700 text-2xl;
+  }
+}
+</style>
 
 ---
-layout: image-left
-image: ./assets/images/intros/0xanik.jpg
+
+# Why numbering should start at zero
+To denote the subsequence of natural numbers 2, 3, ..., 12 without the pernicious three dots, four conventions are open to us:
+
+
+$$
+a)\ 2 \leq i < 13
+$$
+$$
+b)\ 1 < i \leq 12
+$$
+$$
+c)\ 2 \leq i \leq 12
+$$
+$$
+d)\ 1 < i < 13
+$$ 
+
+<br>
+<br>
+
+<v-click>
+
+So let us let our ordinals start at zero: an element's ordinal (subscript) equals the number of elements preceding it in the sequence.
+
+</v-click>
+
 ---
 
-<h1 class="slide-title">Intro</h1>
+# DIGITAL EQUITY BILL OF RIGHTS
+To insure Digital Equity for all, residents have the right to:
 
-<h6 class="secondary-title">Presented by Ali Nik</h6>
+<v-clicks>
 
+- Broadband that is Sufficient and Reliable.
+ 
+- Broadband that is Ubiquitous.
+ 
+- Broadband that is Affordable.
+ 
+- Broadband that Provides Educational Opportunities and Supports Digital Skills Proficiency.
+ 
+- Broadband that Ensures Public Safety and Maintains Peace of Mind.
+ 
+- Broadband that Improves Quality of Life.
+ 
+- Broadband that Supports Economic Prosperity.
+ 
+- Broadband that Attracts Capital Investment.
+ 
+- Broadband that Supports Innovation and Research.
+ 
+- Broadband that Empowers and Enables Participation in the Democracy.
 
-
-
+</v-clicks>
 
 ---
 layout:default
@@ -176,15 +243,8 @@ layout: intro
 
 
 
-# Ali's content placeholder
+# What's The Plan?
 
-This is where the content goes
-
-
----
-layout:default
----
-# Sneak Peak!
 
 
 ---
@@ -739,7 +799,13 @@ Massive industry players like Google, IBM, Amazon, Facebook, etc. are already in
 
 DARQ is likely to have a game-changing effect on a global scale. 
 
-The future is complicated!
+
+---
+layout: section
+---
+
+# The Future is Complicated!
+
 
 ---
 layout: image-left
@@ -1149,10 +1215,174 @@ image: ./assets/images/intros/qollak.jpg
 
 ---
 
-# Qollak content introduction
+# Qollak: Project Definition
 
-This is where the content goes
+<br>
 
+- Deposit Funds
+
+- Break (Withdraw) at a specific time only by the owner   
+
+- Track savings
+
+- Track expenses
+
+- Fun!
+
+
+<img class="relative bottom-0 left-170 w-50" src="/assets/images/qollak/qollak.gif">
+
+---
+layout: section
+---
+
+# Implementations
+## Blockend
+
+---
+
+# Ethereum - Smart Contracts
+Smart contracts are programs that automatically execute transactions if certain conditions are met, without the need of an intermediary
+
+<div v-click-hide>
+
+- Pieces of code running in the Ethereum Virtual Machine
+
+- The environment is highly restricted for security and determinism
+- Each contract has code, state and optionally a balance of Ether
+- They may be written to represent a contract between parties but they need not
+- They are written in a high level language then compiled into bytecode to run in the EVM
+</div>
+
+<img v-after class="absolute w-200 mx-auto bottom-0" src="/assets/images/qollak/sc.png">
+
+---
+
+# Smart Contract Languages
+
+<v-clicks class="text-base columns-2">
+
+  - <span class="font-bold text-emerald-600">Ethereum</span>
+    - LLL
+    - Solidity
+    - Vyper<br><br>
+  - <span class="font-bold text-emerald-600">Cardano</span>
+    - Plutus<br><br><br>
+  - <span class="font-bold text-emerald-600">EOS</span>
+    - C++
+    - WASM<br>
+  - <span class="font-bold text-emerald-600">Solana</span>
+    - Rust
+  - <span class="font-bold text-emerald-600">Hyperledger</span>
+    - Go
+    - Javascript
+
+</v-clicks>
+
+
+
+---
+
+# Model and Data Structure
+
+```solidity {all|1|2-6|all}
+struct Kid {
+    address payable walletAddress;
+    string name;
+    uint releaseTime;
+    uint amount;
+    bool broken;
+}
+```
+<v-click>
+
+```solidity {1|2|3|all}
+address[] private parents;
+mapping(address => mapping(uint => Kid)) public kids;
+mapping(address => uint) private kidsCount;
+```
+</v-click>
+
+---
+
+# Functions
+
+
+```solidity {1-2,16|3-9}
+function addKid(address payable kidWalletAddress, string memory name, uint releaseTime) 
+                                                  payable public kidExist(kidWalletAddress){
+    kids[msg.sender][getKidsCount()]= Kid(
+        kidWalletAddress,
+        name,
+        releaseTime,
+        msg.value,
+        false
+    );
+    if (getKidsCount() == 0){
+        parents.push(msg.sender);
+    }
+    kidsCount[msg.sender] += 1;
+
+    emit KidAdded(msg.sender, kidWalletAddress, msg.value, balanceOf());
+}
+```
+
+---
+
+# Functions
+
+```solidity {1,5|3|1,5}
+function addToKidsQollak(address kidWalletAddress) private {
+    (, uint _index) = getKidByAddress(kidWalletAddress);
+    kids[msg.sender][_index].amount += msg.value;
+    emit KidCharged(msg.sender, kidWalletAddress, msg.value, balanceOf());
+}
+```
+<v-click>
+
+```solidity {1,3|2|all}
+function depositForKid(address walletAddress) payable public kidNotExist(walletAddress){
+    addToKidsQollak(walletAddress);
+}
+```
+</v-click>
+
+---
+
+# Functions
+
+```solidity {1,11|3-5|6-10|all}
+function canBreak() public view returns(bool) {
+    (Kid memory _kid, ,int _index) = getMe();
+    require(_index != -1 , "You don't have Qollak!");
+    require(_kid.broken == false, "Already broken!");
+    require(block.timestamp > _kid.releaseTime, "You can't break yet!");
+    if (block.timestamp > _kid.releaseTime) {
+        return true;
+    } else {
+        return false;
+    }
+}
+```
+<v-click>
+
+```solidity {1,7|3-4|5-6|all}
+function breakMyQollak() payable public {
+    (Kid memory _kid, address _parent, int _index) = getMe();
+    require(msg.sender == _kid.walletAddress, "You must be the kid to break the Qollak!");
+    require(_kid.broken == false, "Already broken!");
+    _kid.walletAddress.transfer(_kid.amount);
+    kids[_parent][uint(_index)].broken = true;
+}
+```
+</v-click>
+
+---
+layout: section
+---
+
+# Implementations
+## Frontend
 
 ---
 layout: full
