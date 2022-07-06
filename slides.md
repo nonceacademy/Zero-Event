@@ -1073,7 +1073,7 @@ layout: section
 ---
 
 
-<img src="/assets/images/amirkhalaj/8.webp" style="object-fit: contain; width: 80%; position: absolute;left:0;right:0;margin-left:auto;margin-right:auto">
+<img src="/assets/images/amirkhalaj/8.webp" style="object-fit: contain; height: 90%; position: absolute;left:0;right:0;margin-left:auto;margin-right:auto">
 
 ---
 layout: section
