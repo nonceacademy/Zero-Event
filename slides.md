@@ -1454,13 +1454,6 @@ layout: full
 <img class="relative bottom-0 left-170 w-50" src="/assets/images/qollak/qollak.gif">
 
 ---
-layout: section
----
-
-# Implementations
-## Blockend
-
----
 
 # Ethereum - Smart Contracts
 Smart contracts are programs that automatically execute transactions if certain conditions are met, without the need of an intermediary
@@ -1514,6 +1507,12 @@ layout: full
 
 </v-clicks>
 
+---
+layout: section
+---
+
+# Implementations
+## Blockend
 
 
 ---
@@ -1620,6 +1619,20 @@ layout: full
 
 
 ---
+layout: default
+---
+
+# Challenges
+
+<ul>
+<li>High gas fee</li>
+<li>Lack of documentation</li>
+<li>Security issues (auditability)</li>
+<li>Difficult to change</li>
+<li>Computation power</li>
+</ul>
+
+---
 layout: section
 ---
 
@@ -1628,14 +1641,17 @@ layout: section
 
 
 ---
-layout: image
-image: ./assets/images/qollak/layout1.png
+layout: full
 ---
 
+<img src="assets/images/qollak/layout1.png" style="position: absolute;height:100%;object-fit:contain;right:0;left:0;margin-right: auto;margin-left:auto;top:0">
+
+
 ---
-layout: image
-image: ./assets/images/qollak/layout2.png
+layout: full
 ---
+
+<img src="assets/images/qollak/layout2.png" style="position: absolute;height:100%;object-fit:contain;right:0;left:0;margin-right: auto;margin-left:auto;top:0">
 
 ---
 layout: section
@@ -1654,7 +1670,7 @@ layout: center
 
 <br />
 
-The barrier of entry is appears to be high, even for a simple HTML-based application.
+The barrier to entry appears to be high, even for a simple HTML-based application.
 
 <br/>
 
