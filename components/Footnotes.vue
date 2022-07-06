@@ -14,12 +14,12 @@
 </template>
 
 <script setup lang="ts">
-import { PropType } from "vue";
+import { PropType } from 'vue';
 defineProps({
   x: {
-    default: "l",
-    type: String as PropType<"l" | "r">,
-    validator: (value) => value === "l" || value === "r",
+    default: 'r',
+    type: String as PropType<'l' | 'r'>,
+    validator: (value) => value === 'l' || value === 'r',
   },
   separator: {
     default: false,
