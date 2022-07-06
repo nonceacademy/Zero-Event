@@ -102,21 +102,16 @@ svg:hover #logo-svg{
 }
 
 </style>
-
+---
+layout: section
 ---
 
-# Welcome
+<div class="text-align:center;font-size:64px;">
+<h1>Intro</h1>
 
----
-layout: image-left
-image: ./assets/images/intros/0xanik.jpg
----
+<h6 >Presented by Ali Nik</h6>
 
-<h1 class="slide-title">Intro</h1>
-
-<h6 class="secondary-title">Presented by Ali Nik</h6>
-
-
+</div>
 
 
 
@@ -188,13 +183,12 @@ layout:default
 
 
 ---
-layout: image-left
-image: ./assets/images/intros/Dr.farahani.jpg
+layout: section
 ---
 
-<h1 class="slide-title">A New Era</h1>
+<h1>A New Era</h1>
 
-<h6 class="secondary-title">Presented by Dr. Hadi Farahani</h6>
+<h6>Presented by Dr. Hadi Farahani</h6>
 
 
 
@@ -249,22 +243,6 @@ administrator.
   year=2016
   paperName="On the Security and Performance of Proof of Work Blockchains"
   author="A. Gervais et al."
-/>
-<LinkHolder 
-  link="https://www.researchgate.net/publication/328349426_A_Review_of_Distributed_Ledger_Technologies_Confederated_International_Conferences_CoopIS_CTC_and_ODBASE_2018_Valletta_Malta_October_22-26_2018_Proceedings_Part_II" 
-  style="width:48%;"
-  year=2018
-  paperName="A Review of Distributed Ledger Technologies"
-  author="N. El Ioini & C. Pahl"
-/>
-</div>
-<div style="display:flex; width: 100%;justify-content:space-between; margin: 10px 0;">
-<LinkHolder 
-  link="https://ferdinand-steinbeis-institut.de/wp-content/uploads/2020/11/Distributed-Ledger-Definition-and-Demarcation_Burkhardt-und-Werling.pdf" 
-  style="width:48%; height: 110px;"
-  year=2020
-  paperName="Distributed Ledger: Definition & Demarcation"
-  author="D. Burkhardt & M. Werling"
 />
 <LinkHolder 
   link="http://scis.scichina.com/en/2021/121101.pdf" 
@@ -327,7 +305,26 @@ So much more than “just” cryptocurrencies.
 A new solution every day: DeFi, DAOs, and so much more…
 
 
+
 The sky is the limit!
+
+<em><u>Further Reading:</u></em>
+<div style="display:flex; width: 100%;justify-content:space-between; margin: 10px 0;">
+<LinkHolder 
+  link="https://www.researchgate.net/publication/328349426_A_Review_of_Distributed_Ledger_Technologies_Confederated_International_Conferences_CoopIS_CTC_and_ODBASE_2018_Valletta_Malta_October_22-26_2018_Proceedings_Part_II" 
+  style="width:48%;"
+  year=2018
+  paperName="A Review of Distributed Ledger Technologies"
+  author="N. El Ioini & C. Pahl"
+/>
+<LinkHolder 
+  link="https://ferdinand-steinbeis-institut.de/wp-content/uploads/2020/11/Distributed-Ledger-Definition-and-Demarcation_Burkhardt-und-Werling.pdf" 
+  style="width:48%; height: 110px;"
+  year=2020
+  paperName="Distributed Ledger: Definition & Demarcation"
+  author="D. Burkhardt & M. Werling"
+/>
+</div>
 
 ---
 
@@ -617,13 +614,12 @@ Some future research directions could include:
 </Footnotes>
 
 ---
-layout: image-left
-image: ./assets/images/intros/Alimansour.jpg
+layout: section
 ---
 
-<h1 class="slide-title">Let's DeBank!</h1>
+<h1>Let's DeBank!</h1>
 
-<h6 class="secondary-title">Presented by Ali Mansour</h6>
+<h6 c>Presented by Ali Mansour</h6>
 
 
 ---
@@ -742,13 +738,12 @@ DARQ is likely to have a game-changing effect on a global scale.
 The future is complicated!
 
 ---
-layout: image-left
-image: ./assets/images/intros/Dr.rouhani.jpg
+layout: section
 ---
 
-<h1 class="slide-title">Documents in Blockchain Culture</h1>
+<h1>Documents in Blockchain Culture</h1>
 
-<h6 class="secondary-title">Presented by Dr. Shahin Rouhani</h6>
+<h6>Presented by Dr. Shahin Rouhani</h6>
 
 
 
@@ -943,13 +938,12 @@ layout: full
 
 
 ---
-layout: image-left
-image: ./assets/images/intros/Amirkhalaj.jpg
+layout: section
 ---
 
-<h1 class="slide-title">Web2+1</h1>
+<h1 >Web2+1</h1>
 
-<h6 class="secondary-title">Presented by Amir Khalaj</h6>
+<h6 >Presented by Amir Khalaj</h6>
 
 
 
@@ -1020,7 +1014,10 @@ layout: section
 # Business Opportunities And Ideas for Web 3.0
 
 ---
+layout: center
+---
 
+<img src="/assets/images/amirkhalaj/logos.png" style="object-fit:contain;width:50%;float:right;" />
 <ul>
 <li>Developing dApps or Decentralized Applications </li>
 <li>Software as a Service (SaaS)</li>
@@ -1041,10 +1038,9 @@ layout: section
 # Web 3 is Chaotic
 
 ---
-layout: center
----
 
-<img src="/assets/images/amirkhalaj/5.webp">
+
+<img src="/assets/images/amirkhalaj/5.webp" style="object-fit: contain; width: 80%; position: absolute;left:0;right:0;margin-left:auto;margin-right:auto">
 
 
 ---
@@ -1054,10 +1050,8 @@ layout: section
 # Web 3 is Hard to Develop
 
 ---
-layout: center
----
 
-<img src="/assets/images/amirkhalaj/6.webp">
+<img src="/assets/images/amirkhalaj/6.webp" style="object-fit: contain; height: 90%; position: absolute;left:0;right:0;margin-left:auto;margin-right:auto">
 
 ---
 layout: section
@@ -1066,10 +1060,9 @@ layout: section
 # No benefits for mainstream businesses
 
 ---
-layout: center
----
 
-<img src="/assets/images/amirkhalaj/7.webp">
+
+<img src="/assets/images/amirkhalaj/7.webp" style="object-fit: contain; width: 80%; position: absolute;left:0;right:0;margin-left:auto;margin-right:auto">
 
 ---
 layout: section
@@ -1078,10 +1071,9 @@ layout: section
 # Crypto crush will ruin all Web3 perspectives
 
 ---
-layout: center
----
 
-<img src="/assets/images/amirkhalaj/8.webp">
+
+<img src="/assets/images/amirkhalaj/8.webp" style="object-fit: contain; width: 80%; position: absolute;left:0;right:0;margin-left:auto;margin-right:auto">
 
 ---
 layout: section
@@ -1091,44 +1083,231 @@ layout: section
 
 
 ---
-layout: image-left
-image: ./assets/images/intros/mort.jpg
+layout: section
 ---
 
-<h1 class="slide-title">NFTs</h1>
+<h1>NFTs</h1>
 
-<h6 class="secondary-title">Presented by Morteza Taher</h6>
-
-
+<h6 >Presented by Morteza Taher</h6>
 
 
 ---
 
+<img src="/assets/images/mort/intro.jpg" style="object-fit:contain;height:85%;width:70%;margin-left:auto;margin-right:auto;" />
 
-# Morteza Taher's content placeholder
-
-This is where the content goes
-
-
----
-layout: image-left
-image: ./assets/images/intros/sepideh.jpg
----
-
-<h1 class="slide-title">Lands</h1>
-
-<h6 class="secondary-title">Presented by Sepideh Cyrus</h6>
-
-
+<p style="width:100%;text-align:center">Caravaggio, painted in c. 1598–1599 or 1602</p>
 
 
 ---
 
-# Sepideh Cyrus's content placeholder
+<div style="display:flex;justify-content:center;align-items:center;align-content:center;width:100%;height:100%;">
+<div style="display:flex;flex-direction:column;min-width:80%;">
+<img src="/assets/images/mort/arrow.png" style="height:100px;width:100%;margin-left:auto;" />
 
-This is where the content goes
+<div style="display: flex; flex-direction: row; justify-content: space-between; align-items:center">
+<p>Monopoly</p>
+<p>Pseudo-Independence</p>
+<p>Artist-Centric</p>
+</div>
+
+</div>
+</div>
+---
+layout: section
+---
+
+# Art Signature Methods
+
+---
+layout: full
+---
+
+# Mediums:
+
+<ul>
+<li>Architecture</li>
+<li>Sculpture</li>
+<li>Painting</li>
+<li>Literature</li>
+<li>Music</li>
+<li>Theater</li>
+</ul>
+
+---
+layout: section
+---
+
+# Mass-Production Art
+
+---
+layout: section
+---
+
+# Video
+
+---
+layout: section
+---
+
+# Screen Revolution!
 
 
+---
+layout: full
+---
+
+<img src="/assets/images/mort/nft.png" style="object-fit:contain;height:85%;width:80%;margin-left:auto;margin-right:auto;" />
+
+---
+layout: section
+---
+
+# SMART CONTRACTS AS ARTIST’S AGENT
+
+---
+layout: section
+---
+
+# None Fungible Tokens
+
+---
+layout: image
+image: './assets/images/mort/nftchart.png'
+---
+
+---
+
+<img src="/assets/images/mort/intro.jpg" style="object-fit:contain;height:85%;width:70%;margin-left:auto;margin-right:auto;" />
+
+<p style="width:100%;text-align:center">Louis Finson, painted in c. 1598–1610</p>
+
+
+---
+layout: section
+---
+
+<h1>Lands</h1>
+
+<h6>Presented by Sepideh Cyrus</h6>
+
+
+---
+layout: full
+---
+
+<img src="/assets/images/sepideh/0.jpg" style="object-fit:contain;height:85%;width:80%;margin-left:auto;margin-right:auto;" />
+
+---
+layout: section
+---
+
+# Vision <br />Vs. <br />Imagination
+
+---
+layout: full
+---
+
+<div style="width:95%;height:80%;position:absolute;top:0;bottom:0;margin-top:auto;margin-bottom:auto;left:0;right:0;margin-left:auto;margin-right:auto;display:flex; flex-direction:row; justify-content: space-between; align-items: center; align-content:center;">
+<img src="/assets/images/sepideh/1.jpg" style="object-fit:contain;height:75%;" />
+<img src="/assets/images/sepideh/2.jpg" style="object-fit:contain;height:75%;" />
+<img src="/assets/images/sepideh/3.png" style="object-fit:contain;height:75%;" />
+<img src="/assets/images/sepideh/4.png" style="object-fit:contain;height:75%;" />
+
+</div>
+
+---
+layout: section
+---
+
+
+# What is your estimation? <br />How long will it take us to actually live on another planet?
+
+
+---
+layout: section
+---
+
+# Maybe <br />Metaverse <br />is <br />Our New Moon
+
+
+---
+layout: center
+
+---
+
+# <div style="text-align:center">Metaverse has Existed for Many Years in Video Games</div>
+
+<img src="/assets/images/sepideh/5.png" style="object-fit:contain;height:85%;width:70%;margin-left:auto;margin-right:auto;" />
+
+---
+layout: section
+---
+
+# <div style="text-align:left"><b>METAVERSE IS</b><br/> A proposed version of the internet that incorporates three-dimensional virtual environments.</div>
+
+---
+layout: image
+image: './assets/images/sepideh/6.png'
+---
+
+
+---
+layout: default
+---
+# Metaverse Features
+
+<ol>
+<li>No construction difficulty</li>
+<li>No feasible study</li>
+<li>No planning committee</li>
+<li>No value engineering</li>
+<li>No governmental laws</li>
+<li>Custom physics</li>
+</ol>
+
+
+
+---
+layout: section
+---
+
+# How to Migrate
+
+
+
+---
+layout: section
+---
+
+<div style="width: 100%; text-align:start;">
+<li>3D Modeling and Design</li>
+<li>Computer Programming</li>
+<li>VR/AR Development</li>
+<li>Blockchain / NFT Engineering</li>
+<li>Data Skills</li>
+<li>UI/UX Design</li>
+</div>
+
+
+---
+layout: center
+---
+
+
+<video controls>
+  <source src="assets/videos/demo.mp4" type="video/mp4">
+</video>
+
+
+
+---
+layout: full
+---
+<div style="width:100%;height:100%;background-color: #040204;position:absolute; top:0;bottom:0;right:0;left:0;display:flex;flex-direction:column;justify-content:center;align-items:center;">
+<h1 style="width:100%;text-align:center;margin-top:20px;">"The Power of Imagination Makes Us Infinite"</h1>
+
+<img src="/assets/images/sepideh/7.gif" style="object-fit:contain;height:60%;width:70%;margin-left:auto;margin-right:auto;" />
+</div>
 ---
 layout: full
 ---
@@ -1138,13 +1317,12 @@ layout: full
 </div>
 
 ---
-layout: image-left
-image: ./assets/images/intros/qollak.jpg
+layout: section
 ---
 
-<h1 class="slide-title">Qollak</h1>
+<h1>Qollak</h1>
 
-<h6 class="secondary-title">Presented by Ali Nik (ft. Sheedeh Sharif)</h6>
+<h6>Presented by Ali Nik (ft. Sheedeh Sharif)</h6>
 
 
 ---
@@ -1154,21 +1332,86 @@ image: ./assets/images/intros/qollak.jpg
 This is where the content goes
 
 
+
+---
+layout: image
+image: ./assets/images/qollak/layout1.png
+---
+layout: image
+image: ./assets/images/qollak/layout2.png
+
+
+---
+layout: section
+---
+
+# How do we implement it? What if the front-end developer doesn't know about Web3?
+(No need to worry)
+
+
+---
+
+# But we obviously need (some) knowledge
+
+
+The barrier of entry is appears to be high, even for a simple HTML-based application.
+
+How much knowledge is needed to "talk" to a smart contract on the blockchain?
+
+<h1>So, where's the happy middle?</h1>
+
+
+---
+
+# dApps or Decentralized Applications 
+
+
+To use a smart contract in our interface, we don't need any fancy tools or deep knowledge whatsoever
+
+<b>All we need is an address and a general "guide" (ABI)</b>
+It's nice that we're decentralized
+
+
+---
+
+# What we use!
+
+For Node.js-based frameworks (React, Vue, Svelte, ...): Ethers.js and Web3
+
+---
+
+# Connect to wallet:
+
+code snippet here
+
+---
+
+# Interface with smart contract
+
+code snippet here
+
+
+---
+layout: fact
+---
+
+# And that's it!
+
+The rest is up to us!
+
 ---
 layout: full
 ---
+
 <div class="break-cover">
   <Countdown countdownTime=20 title="Coffee Time!" />
 </div>
 
-----
-layout: image-left
-image: ./assets/images/intros/farzin.jpg
+---
+layout: fact
 ---
 
-<h1 class="slide-title">Panel</h1>
-
-<h6 class="secondary-title">Presented by many people</h6>
+# Panel
 
 
 ---
