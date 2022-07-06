@@ -728,6 +728,8 @@ layout: section
 ---
 
 # But what if there was a solution?
+"The root problem with conventional currencies is all the trust that's required to make it work. The central bank must be trusted not to debase the currency, but the history of fiat currencies is full breaches of that trust."
+<p style="text-align:end"><em>-Satoshi Nakamoto (2008)</em></p>
 
 
 ---
@@ -1025,14 +1027,14 @@ In blockchain terminology, a green paper is a white paper for an environmentally
 
 
 
+
 ---
 layout: full
 ---
+
 <div class="break-cover">
-  <Countdown countdownTime=20 title="Coffee Time!" />
+  <CountdownCircular countdownTime=60 title="Lunch Time!" />
 </div>
-
-
 
 ---
 layout: full
