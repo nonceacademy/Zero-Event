@@ -773,22 +773,6 @@ layout: default
 layout: default
 ---
 
-# DeFi Adoption
-
-Even science says institutional banks will have no choice but to adopt DeFi.
--United Wholesale Mortgage announced they will accept Bitcoin for mortgage repayments.
-
-
-With the rise of regulation comes even more growth.
-<ul>
-<li>Singapore now has clear licensing regimes for crypto companies</li>
-<li>There are now tools that allow businesses to manage their crypto payments in a compliant manner</li>
-</ul>
-
----
-layout: default
----
-
 # What's in Store?
 
 Already implemented DeFi platforms: 
@@ -1033,7 +1017,7 @@ layout: full
 ---
 
 <div class="break-cover">
-  <CountdownCircular countdownTime=60 title="Lunch Time!" />
+  <Countdown countdownTime=20 title="Coffee Time!" />
 </div>
 
 ---
@@ -1249,12 +1233,15 @@ layout: section
 
 # Mass-Production Art
 
+
 ---
-layout: section
+layout: center
 ---
 
-# Video
 
+<video controls>
+  <source src="assets/videos/firstnft.mp4" type="video/mp4" >
+</video>
 ---
 layout: section
 ---
