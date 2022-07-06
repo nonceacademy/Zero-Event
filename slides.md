@@ -248,8 +248,10 @@ layout: intro
 
 
 ---
-layout: section
+layout: full
 ---
+
+<img src="assets/images/intros/Dr.farahani.jpg" style="position:absolute;height:100%; top:0; right:0">
 
 <h1>A New Era</h1>
 
@@ -688,12 +690,16 @@ Some future research directions could include:
 </Footnotes>
 
 ---
-layout: section
+layout: full
 ---
 
+<img src="assets/images/intros/Alimansour.jpg" style="position:absolute;height:100%;left:0;top:0;">
+
+<div style="position:absolute; width: 40%; right:0;">
 <h1>Let's DeBank!</h1>
 
 <h6 c>Presented by Ali Mansour</h6>
+</div>
 
 
 ---
@@ -824,13 +830,18 @@ layout: section
 
 
 ---
-layout: section
+layout: full
 ---
 
+
+
+<img src="assets/images/intros/Dr.rouhani.jpg" style="position:absolute;height:100%;right:0;top:0;">
+
+<div style="position:absolute; width: 40%; left:0; margin-left:30px">
 <h1>Documents in Blockchain Culture</h1>
 
 <h6>Presented by Dr. Shahin Rouhani</h6>
-
+</div>
 
 
 ---
@@ -1024,14 +1035,17 @@ layout: full
 
 
 ---
-layout: section
+layout: full
 ---
 
-<h1 >Web2+1</h1>
 
-<h6 >Presented by Amir Khalaj</h6>
+<img src="assets/images/intros/Amirkhalaj.jpg" style="position:absolute;height:100%;right:0;top:0;">
 
+<div style="position:absolute; width: 40%; left:0;  margin-left:30px">
+<h1>Web2+1</h1>
 
+<h6>Presented by Amir Khalaj</h6>
+</div>
 
 
 ---
@@ -1171,13 +1185,19 @@ layout: section
 
 
 ---
-layout: section
+layout: full
 ---
 
+
+
+
+<img src="assets/images/intros/mort.jpg" style="position:absolute;height:100%;right:0;top:0;">
+
+<div style="position:absolute; width: 40%; left:0;  margin-left:30px">
 <h1>NFTs</h1>
 
-<h6 >Presented by Morteza Taher</h6>
-
+<h6>Presented by Morteza Taher</h6>
+</div>
 
 ---
 
@@ -1271,12 +1291,18 @@ image: './assets/images/mort/nftchart.png'
 
 
 ---
-layout: section
+layout: full
 ---
 
+
+
+<img src="assets/images/intros/sepideh.jpg" style="position:absolute;height:100%;right:0;top:0;">
+
+<div style="position:absolute; width: 40%; left:0;  margin-left:30px">
 <h1>Lands</h1>
 
 <h6>Presented by Sepideh Cyrus</h6>
+</div>
 
 
 ---
@@ -1405,12 +1431,18 @@ layout: full
 </div>
 
 ---
-layout: section
+layout: full
 ---
 
+
+
+<img src="assets/images/intros/qollak.jpg" style="position:absolute;height:100%;left:0;top:0;">
+
+<div style="position:absolute; width: 40%; right:0;">
 <h1>Qollak</h1>
 
 <h6>Presented by Ali Nik (ft. Sheedeh Sharif)</h6>
+</div>
 
 
 ---
