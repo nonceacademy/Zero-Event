@@ -1630,6 +1630,7 @@ layout: default
 <li>Security issues (auditability)</li>
 <li>Difficult to change</li>
 <li>Computation power</li>
+<li>Deterministic</li>
 </ul>
 
 ---
