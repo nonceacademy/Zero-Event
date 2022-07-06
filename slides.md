@@ -1610,9 +1610,11 @@ layout: section
 layout: image
 image: ./assets/images/qollak/layout1.png
 ---
+
+---
 layout: image
 image: ./assets/images/qollak/layout2.png
-
+---
 
 ---
 layout: section
@@ -1623,55 +1625,137 @@ layout: section
 
 
 ---
+layout: center
+---
 
-# But we obviously need (some) knowledge
+<div style="text-align:center">
+<h1>But we obviously need (some) knowledge</h1>
 
+<br />
 
 The barrier of entry is appears to be high, even for a simple HTML-based application.
 
+<br/>
+
 How much knowledge is needed to "talk" to a smart contract on the blockchain?
 
-<h1>So, where's the happy middle?</h1>
+<br />
+<h1><em>So, where's the happy middle?</em></h1>
 
+</div>
+---
+layout: center
+---
+<div style="text-align:center">
 
+# How do we do this?
+
+<br />
+<br />
+
+To use a smart contract in our interface, we don't need any fancy tools or deep knowledge about complex processes whatsoever
+<br />
+<br />
+
+First off, we'll need to connect our wallet to our application somehow
+
+<br />
+<br />
+
+<b>Then all we'll need is an address and a general "guide" (ABI) for our smart contract</b>
+
+<br />
+<br />
+</div>
+---
+layout: section
 ---
 
-# dApps or Decentralized Applications 
+# We're (not) doomed
 
+<img src="assets/images/qollak/thumbsup.gif" style="float:right;height:50%;object-fit:contain;margin-left: 20px;">
 
-To use a smart contract in our interface, we don't need any fancy tools or deep knowledge whatsoever
+<li><em>Only thing left is away to connect to the blockchain for us. That sounds scary.</em></li>
+<br />
+<br />
+<br />
+<div style="text-align:left">
+Thankfully, no need to reinvent the wheel by writing complex code to interact with the blockchain.
 
-<b>All we need is an address and a general "guide" (ABI)</b>
-It's nice that we're decentralized
-
+<li style="margin-top:20px;"> There are a bunch of libraries out there with code snippets we can use </li>
+</div>
 
 ---
+layout: center
+---
 
-# What we use!
+# What we'll use!
 
-For Node.js-based frameworks (React, Vue, Svelte, ...): Ethers.js and Web3
+For Node.js-based frameworks (React, Vue, Svelte, ...): <u>Ethersjs</u> and <u>Web3js</u>
+
+<img src="assets/images/qollak/web3vethers.png" style="width:70%; object-fit:contain; margin-left:auto;margin-right:auto;margin-top:20px;margin-bottom:20px;">
+
+<li>The biggest difference boils down to how they interact with the blockchain, but it's really a matter of preference</li>
+<br />
+<em style="width:100%;text-align:center">For Qollak, I'll be using <u>Ethers.js</u></em>
 
 ---
 
 # Connect to wallet:
 
-code snippet here
+The way that these frameworks work is that different parts that we need to communicate with the blockchain (e.g. wallet, smart contracts) are all <u>objects</u>.
+<li>Information is given, a connection is made, and the object is created.</li>
+
+So, for instance to connect our wallet (in this case, MetaMask), we'd simply add:
+
+```javascript {1|3-4|all}
+import { ethers } from 'ethers';
+// ...
+let provider = new ethers.providers.Web3Provider(window.ethereum);
+provider.send('eth_requestAccounts', []).then(() => {
+  let signer = provider.getSigner();
+  // We're done!
+});
+```
+<br/>
+And we now have a <em>provider</em> and a <em>signer</em> that let us interact with the blockchain, like creating and signing transactions!
 
 ---
 
+
 # Interface with smart contract
 
-code snippet here
+Following the same logic as before, given a smart contract's ABI and address, we can make a construct that will let us talk to the smart contract deployed on the blockchain:
 
+```javascript {all}
+import qollakABI from '/qollak-abi.json';
+
+const qollakAddr = '0x190340Bf48A95fF8Da436D66e3F4873eD96d9c48';
+
+let qollakContract = new ethers.Contract(qollakAddr, qollakABI, signer);
+```
+
+And making a transaction is as simple as a regular function call:
+
+```javascript {all}
+// Create a new kid with their own qollak
+qollakContract
+  .addKid(kid_address, name, break_time))
+  .then((res) => {
+    console.log('Success!!');
+  });
+
+```
 
 ---
 layout: fact
 ---
 
-# And that's it!
+# And that's it! <br/><sub>(It works!)</sub>
 
+<div style="margin-top:50px">
 The rest is up to us!
-
+</div>
 ---
 layout: full
 ---
