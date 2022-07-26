@@ -12,7 +12,7 @@
         font="mono"
         outline="!none"
         hover:bg="gray-400 opacity-20"
-        style="font-size: 14px; margin-bottom: 0; padding-bottom: 0"
+        style="font-size: 14px; margin-bottom: 0; padding: 5px"
         @click="startTimer()"
         v-if="!timerStarted"
       >

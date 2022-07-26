@@ -23,10 +23,24 @@ const counter = ref(props.link);
 </script>
 
 <template>
-  <div style="border: 2px solid #aaa; padding: 3px">
+  <div
+    style="border: 2px solid #aaa; padding: 3px"
+    class="group hover:bg-gray-300 t-settings"
+  >
     <a :href="link" target="_blank">
-      <h6 class="title-text" v-if="title.length > 1">{{ title }}</h6>
-      <div class="base-container">
+      <h6
+        class="text-center group-hover:text-black t-settings"
+        v-if="title.length > 1"
+      >
+        {{ title }}
+      </h6>
+      <div
+        class="
+          base-container
+          group-hover:bg-black group-hover:shadow-lg group-hover:shadow-black
+          t-settings
+        "
+      >
         <div>
           <h4 style="text-align: center">
             {{ paperName }}
@@ -51,7 +65,7 @@ const counter = ref(props.link);
   padding: 10px 5px;
 }
 
-.title-text {
-  text-align: center;
+.t-settings {
+  @apply transition duration-300 delay-100;
 }
 </style>
