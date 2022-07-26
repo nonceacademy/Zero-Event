@@ -276,16 +276,17 @@ layout: default
 
 # Level 0: Distributed Ledger Technologies and the P2P Network
 
-<img  src="assets/images/misc/dlt_archs.png" class="float-right object-contain w-1/2 m-5">
+<img  src="assets/images/misc/dlt_archs.png" class="float-left object-contain w-1/2 m-5">
 <p class="text-justify">
 Distributed Ledger Technologies (DLTs) are a consensus of replicated, shared and synchronized digital data geographically spread across multiple locations using a peer-to-peer network and unlike centralized databases, there is no central 
 administrator. 
-<div class="indented-list">
-<li >At their core, they’re no more than simple data structures</li>
+</p>
+<div class="relative left-11">
+<li>At their core, they’re no more than simple data structures</li>
 <li> The goal is to not trust each other</li>
 <li>We're not limited to using the blockchain</li>
 </div>
-</p>
+
 
 
 
@@ -638,10 +639,12 @@ Blockchains can offer explainability, privacy, and trust to AI-based application
 
 # Level 5: Internet of Things and Blockchain
 
-<br /><br /><br />
-<li>Why though?</li>
-<br /><br /><br /><br /><br />
-<li class="slightly-larger-regular-text">Blockchain + IoT = BCIoT</li>
+<div class="centered-layout items-center">
+
+<div class="italic">But why would we want to combine these two?</div>
+
+<div class="mt-8 underline font-semibold text-3xl">Blockchain + IoT = BCIoT</div>
+</div>
 
 
 ---
@@ -1036,7 +1039,7 @@ image: ./assets/images/papers/scientific_paper.png
 
 # Scientific Paper
 
-<div class="even-layout h-2/3 text-xl">
+<div class="even-layout h-2/3 text-xl text-justify">
 A scientific paper is a document reporting the progress of a scientific activity. It should not be biased, and should be based on sound mathematical and/or experimental data and is peer reviewed.
 
 <span class="italic grayed-text">Although recently, peer review for white papers may be necessary.</span>
@@ -1161,7 +1164,7 @@ layout: center
 <ol class="text-xl indented-list">
 <li>Semantic web</li>
 <li>Artificial Intelligence (AI)</li>
-<li>3D Graphics</li>
+<li>Three Dimensional</li>
 <li>Connectivity</li>
 <li>Ubiquity</li>
 <li>Decentralized Technology</li>
@@ -1350,7 +1353,7 @@ layout: section
 layout: section
 ---
 
-# None Fungible Tokens
+# Non-Fungible Tokens
 
 ---
 layout: image
@@ -1698,13 +1701,6 @@ function breakMyQollak() payable public {
 </v-click>
 
 ---
-layout: full
----
-
-<img src="assets/images/qollak/roadmap.png" style="position: absolute;height:100%;object-fit:contain;right:0;left:0;margin-right: auto;margin-left:auto;top:0">
-
-
----
 layout: default
 ---
 
@@ -1814,7 +1810,7 @@ layout: center
 # What we'll use!
 
 <div>
-<div class="slightly-larger-regular-text ">For Node.js-based frameworks (React, Vue, Svelte, ...): <u>Ethersjs</u> and <u>Web3js</u></div>
+<div class="slightly-larger-regular-text ">For Node.js-based frameworks (React, Vue, Svelte, ...): <a href="https://docs.ethers.io/v5/" target="_blank">Ethersjs</a> and <a href="https://web3js.readthedocs.io/en/v1.7.4/" target="_blank">Web3js</a></div>
 
 <img src="assets/images/qollak/web3vethers.png" class="w-3/5 object-contain mx-auto my-7">
 
@@ -1883,20 +1879,6 @@ layout: fact
 <div class="mt-12">
 The rest is up to us!
 </div>
----
-layout: full
----
-
-<div class="break-cover">
-  <Countdown countdownTime=20 title="Coffee Time!" />
-</div>
-
----
-layout: fact
----
-
-# Panel
-
 
 ---
 layout: center
