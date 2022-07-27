@@ -2,7 +2,7 @@
 # try also 'default' to start simple
 # theme: ./slidev-nonce-theme
 
-favicon: '/assets/nonce-light.svg'
+favicon: '/assets/images/nonce-light.svg'
 
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
@@ -1518,7 +1518,7 @@ layout: full
 <div class="intro-text-right">
 <h1>Qollak</h1>
 
-<h6>Presented by Ali Nik (ft. Sheedeh Sharif)</h6>
+<h6>Presented by 0xanik (ft. Sheedeh Sharif)</h6>
 </div>
 
 
