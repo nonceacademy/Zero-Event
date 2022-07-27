@@ -209,7 +209,7 @@ layout:default
 
 # Architecture Overview
 
-<img class="relative w-150 mx-auto bottom-10-z-1" src="assets/images/arch_layers.png">
+<img class="relative w-150 mx-auto bottom-10-z-1" src="/assets/images/arch_layers.png">
 
 ---
 layout: quote
@@ -231,7 +231,7 @@ data and values.
 
 # Blockchain 2.0 Architecture
 
-<img class="relative w-150 mx-auto " src="assets/images/arch_layers2.png">
+<img class="relative w-150 mx-auto " src="/assets/images/arch_layers2.png">
 
 
 ---
@@ -248,7 +248,7 @@ layout: intro
 layout: full
 ---
 
-<img src="assets/images/intros/Dr.farahani.jpg" class="intro-img">
+<img src="/assets/images/intros/Dr.farahani.jpg" class="intro-img">
 
 <h1>A New Era</h1>
 
@@ -261,7 +261,7 @@ layout: default
 ---
 
 # An Opportunity on Every Layer
-<img class="relative mx-auto h-4/5 float-right" src="assets/images/arch_layers2.png">
+<img class="relative mx-auto h-4/5 float-right" src="/assets/images/arch_layers2.png">
 
 <div class="even-layout">
 <li>The research opportunities are endless</li>
@@ -276,7 +276,7 @@ layout: default
 
 # Level 0: Distributed Ledger Technologies and the P2P Network
 
-<img  src="assets/images/misc/dlt_archs.png" class="float-left object-contain w-1/2 m-5">
+<img  src="/assets/images/misc/dlt_archs.png" class="float-left object-contain w-1/2 m-5">
 <p class="text-justify">
 Distributed Ledger Technologies (DLTs) are a consensus of replicated, shared and synchronized digital data geographically spread across multiple locations using a peer-to-peer network and unlike centralized databases, there is no central 
 administrator. 
@@ -364,7 +364,7 @@ Cryptography is what holds everything together
 
 <li class="spaced-list-item grayed-text" style="margin-left:44px">Hashing is key</li>
 
-<img class="w-170 mx-auto" style="position: relative; top:-30px" src="assets/images/misc/simple_blockchain.png">
+<img class="w-170 mx-auto" style="position: relative; top:-30px" src="/assets/images/misc/simple_blockchain.png">
 
 ---
 
@@ -746,7 +746,7 @@ Some future research directions could include:
 layout: full
 ---
 
-<img src="assets/images/intros/Alimansour.jpg" class="intro-img-left">
+<img src="/assets/images/intros/Alimansour.jpg" class="intro-img-left">
 
 <div class="intro-text-right">
 <h1>Let's DeBank!</h1>
@@ -761,7 +761,7 @@ layout: center
 
 
 <video controls>
-  <source src="assets/videos/bank.mp4" type="video/mp4">
+  <source src="/assets/videos/bank.mp4" type="video/mp4">
 </video>
 
 ---
@@ -879,7 +879,7 @@ layout: full
 
 
 
-<img src="assets/images/intros/Dr.rouhani.jpg" class="intro-img">
+<img src="/assets/images/intros/Dr.rouhani.jpg" class="intro-img">
 
 <div class="intro-text">
 <h1>Documents in Blockchain Culture</h1>
@@ -1113,7 +1113,7 @@ layout: full
 ---
 
 
-<img src="assets/images/intros/Amirkhalaj.jpg" class="intro-img">
+<img src="/assets/images/intros/Amirkhalaj.jpg" class="intro-img">
 
 <div class="intro-text">
 <h1>Web2+1</h1>
@@ -1265,7 +1265,7 @@ layout: full
 
 
 
-<img src="assets/images/intros/mort.jpg" class="intro-img">
+<img src="/assets/images/intros/mort.jpg" class="intro-img">
 
 <div class="intro-text">
 <h1>NFTs</h1>
@@ -1328,7 +1328,7 @@ layout: center
 
 
 <video controls>
-  <source src="assets/videos/firstnft.mp4" type="video/mp4" >
+  <source src="/assets/videos/firstnft.mp4" type="video/mp4" >
 </video>
 ---
 layout: section
@@ -1373,7 +1373,7 @@ layout: full
 
 
 
-<img src="assets/images/intros/sepideh.jpg" class="intro-img">
+<img src="/assets/images/intros/sepideh.jpg" class="intro-img">
 
 <div class="intro-text">
 <h1>Lands</h1>
@@ -1486,7 +1486,7 @@ layout: center
 
 
 <video controls>
-  <source src="assets/videos/demo.mp4" type="video/mp4">
+  <source src="/assets/videos/demo.mp4" type="video/mp4">
 </video>
 
 
@@ -1513,7 +1513,7 @@ layout: full
 
 
 
-<img src="assets/images/intros/qollak.jpg" class="intro-img-left">
+<img src="/assets/images/intros/qollak.jpg" class="intro-img-left">
 
 <div class="intro-text-right">
 <h1>Qollak</h1>
@@ -1564,13 +1564,13 @@ Smart contracts are programs that automatically execute transactions if certain 
 layout: full
 ---
 
-<img src="assets/images/qollak/evm1.png" style="position: absolute;height:100%;object-fit:contain;right:0;left:0;margin-right: auto;margin-left:auto;top:0">
+<img src="/assets/images/qollak/evm1.png" style="position: absolute;height:100%;object-fit:contain;right:0;left:0;margin-right: auto;margin-left:auto;top:0">
 
 ---
 layout: full
 ---
 
-<img src="assets/images/qollak/machinespace.png" style="position: absolute;height:100%;object-fit:contain;right:0;left:0;margin-right: auto;margin-left:auto;top:0">
+<img src="/assets/images/qollak/machinespace.png" style="position: absolute;height:100%;object-fit:contain;right:0;left:0;margin-right: auto;margin-left:auto;top:0">
 
 ---
 
@@ -1727,14 +1727,14 @@ layout: section
 layout: full
 ---
 
-<img src="assets/images/qollak/layout1.png" style="position: absolute;height:100%;object-fit:contain;right:0;left:0;margin-right: auto;margin-left:auto;top:0">
+<img src="/assets/images/qollak/layout1.png" style="position: absolute;height:100%;object-fit:contain;right:0;left:0;margin-right: auto;margin-left:auto;top:0">
 
 
 ---
 layout: full
 ---
 
-<img src="assets/images/qollak/layout2.png" style="position: absolute;height:100%;object-fit:contain;right:0;left:0;margin-right: auto;margin-left:auto;top:0">
+<img src="/assets/images/qollak/layout2.png" style="position: absolute;height:100%;object-fit:contain;right:0;left:0;margin-right: auto;margin-left:auto;top:0">
 
 ---
 layout: section
@@ -1791,7 +1791,7 @@ layout: section
 # We're (not) doomed
 
 
-<img src="assets/images/qollak/thumbsup.gif" class="float-right h-1/2 object-contain ml-7" >
+<img src="/assets/images/qollak/thumbsup.gif" class="float-right h-1/2 object-contain ml-7" >
 
 <div class="italic grayed-text">Only thing left is away to connect to the blockchain for us. That sounds scary.</div>
 <br />
@@ -1812,7 +1812,7 @@ layout: center
 <div>
 <div class="slightly-larger-regular-text ">For Node.js-based frameworks (React, Vue, Svelte, ...): <a href="https://docs.ethers.io/v5/" target="_blank">Ethersjs</a> and <a href="https://web3js.readthedocs.io/en/v1.7.4/" target="_blank">Web3js</a></div>
 
-<img src="assets/images/qollak/web3vethers.png" class="w-3/5 object-contain mx-auto my-7">
+<img src="/assets/images/qollak/web3vethers.png" class="w-3/5 object-contain mx-auto my-7">
 
 <li>The biggest difference boils down to how they interact with the blockchain, but it's really a matter of preference</li>
 <br />
